@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import calender from "../assets/calendar.png";
 import dashboard from "../assets/dashboard.webp";
+import myPic from "../assets/myimg.png";
 import { Row, Col } from "react-bootstrap";
 import "./styles.css";
 const Navbar = () => {
@@ -259,7 +260,7 @@ const Navbar = () => {
               through Web and Mobile apps. I work with React Js & React Native.
             </p>
           </div>
-          <img className="my-img" src={dashboard} />
+          <img className="my-img" src={myPic} />
         </section>
 
         <section id="about" ref={about} className="aboutme">

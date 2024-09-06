@@ -113,14 +113,14 @@ nav a {
 
 nav a.active {
   /* color: lightgray; */
-  color: rgb(166, 166, 209);
+  color: coral;
   font-size: 1em;
 }
 
 .section {
   padding: 180px 10px 180px 10px;
   /* height: 700px; */
-  background-color: rgb(166, 166, 209);
+  background-color: Black;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -131,18 +131,20 @@ h2 {
 }
 
 .my-img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   border-radius: 300px;
+  object-fit: cover;
+  /* background-color: #0056b3; */
 }
 
 .main-txt {
   font-size: 2em;
-  color: #333;
+  color: white;
 }
 
 .paragraph {
-  color: #333;
+  color: white;
   margin-top: 10px;
   font-size: 1.3em;
 }
@@ -347,7 +349,7 @@ h2 {
 .number {
   font-weight: 600;
   font-size: 1.7rem;
-  color: rgb(166, 166, 209);
+  color: coral;
 }
 .emailTxt {
   color: antiquewhite;
@@ -355,10 +357,10 @@ h2 {
 }
 
 .circle1 {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   border-radius: 100px;
-  background-color: rgb(166, 166, 209);
+  background-color: coral;
   margin: 10px;
   cursor: pointer;
   justify-content: center;
@@ -371,17 +373,17 @@ h2 {
   justify-content: center;
 }
 .circle1:hover {
-  background-color: rgba(166, 166, 209, 0.8);
+  background-color: rgb(255, 127, 80, 0.8);
 }
 
 .socialImg {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   object-fit: contain;
 }
 .whatsappImg {
-  height: 28px;
-  width: 28px;
+  height: 23px;
+  width: 23px;
   object-fit: contain;
 }
 
@@ -447,7 +449,7 @@ h2 {
   align-items: center;
   font-size: 0.8rem;
   border-width: 0px;
-  background-color: rgb(166, 166, 209);
+  background-color: black;
   color: white;
   font-weight: 700;
 }
